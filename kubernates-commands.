@@ -1,0 +1,30 @@
+kubectl get: Retrieves information about Kubernetes resources.
+
+kubectl get pods: Lists all pods in the current namespace.
+kubectl get deployments: Lists all deployments in the current namespace.
+kubectl get services: Lists all services in the current namespace.
+kubectl describe: Provides detailed information about a specific Kubernetes resource.
+
+kubectl describe pod <pod-name>: Displays detailed information about a specific pod.
+kubectl describe deployment <deployment-name>: Displays detailed information about a specific deployment.
+kubectl describe service <service-name>: Displays detailed information about a specific service.
+kubectl create: Creates a new Kubernetes resource from a configuration file.
+
+kubectl create -f <filename.yaml>: Creates resources defined in a YAML file.
+kubectl apply: Applies changes to existing Kubernetes resources.
+
+kubectl apply -f <filename.yaml>: Applies changes defined in a YAML file.
+kubectl delete: Deletes Kubernetes resources.
+
+kubectl delete pod <pod-name>: Deletes a specific pod.
+kubectl delete deployment <deployment-name>: Deletes a specific deployment.
+kubectl delete service <service-name>: Deletes a specific service.
+kubectl scale: Changes the number of replicas for a deployment.
+
+kubectl scale --replicas=<replica-count> deployment/<deployment-name>: Scales the specified deployment to the desired replica count.
+kubectl logs: Retrieves the logs of a pod.
+
+kubectl logs <pod-name>: Retrieves the logs of a specific pod.
+kubectl exec: Executes a command in a running container of a pod.
+
+kubectl exec -it <pod-name> -- <command>: Executes the specified command in a running pod.
