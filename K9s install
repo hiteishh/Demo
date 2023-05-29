@@ -1,0 +1,16 @@
+wget https://github.com/derailed/k9s/releases/download/v0.27.4/k9s_Linux_arm.tar.gz
+  275  sudo wget https://github.com/derailed/k9s/releases/download/v0.27.4/k9s_Linux_arm.tar.gz
+  276  gunzip k9s_Linux_arm.tar.gz 
+  277  sudo gunzip k9s_Linux_arm.tar.gz 
+  278  ls
+  279  tar -xvf k9s_Linux_arm.tar 
+  280  sudo tar -xvf k9s_Linux_arm.tar 
+  281  ./k9s 
+  282  chmod +x k9s
+  283  sudo chmod +x k9s
+  284  ./k9s 
+  285  uname -m
+  286  sudo apt install port
+  287  curl -sS https://webi.sh/k9s | sh
+  288  source ~/.config/envman/PATH.env
+  289  k9s
